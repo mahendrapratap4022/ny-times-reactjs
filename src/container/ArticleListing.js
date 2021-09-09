@@ -5,8 +5,8 @@ import { setArticles } from '../redux/actions/ArticleActions';
 import ArticleComponent from './ArticleComponent';
 
 const ArticleListing = () => {
-  const { REACT_APP_BASE_URL, REACT_APP_API_KEY } = process.env;
   const dispatch = useDispatch();
+  const { REACT_APP_BASE_URL, REACT_APP_API_KEY } = process.env;
   const fetchArticles = async () => {
     const response = await axios.get(axios.get(REACT_APP_BASE_URL + '/svc/mostpopular/v2/viewed/7.json?api-key=' + REACT_APP_API_KEY).catch((error) => console.log(error, 'error'));
     dispatch(setArticles(response.data.results));
