@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# New York Times Article API using Reactjs and redux.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses [New York Times Developer API](https://developer.nytimes.com/apis).
+
+![A test image](https://camo.githubusercontent.com/6db9053ca0bbe8104df5e96d97b8ce2d6d88a6362667fdd756a23f844fcffe99/68747470733a2f2f6d65646961332e67697068792e636f6d2f6d656469612f6b4939314a7159587a3349384446733566782f67697068792e676966)
 
 ## Available Scripts
 
