@@ -52,7 +52,7 @@ const ArticleDetail = () => {
                 <h1>{title}</h1>
                 <h3 className='ui'> -- {section}</h3>
                 <p>{abstract}</p>
-                <a class='left aligned ui button' href={url} target='_blank'>
+                <a className='left aligned ui button' href={url} target='_blank'>
                   Go Read Full Article on New york Times
                 </a>
               </div>
